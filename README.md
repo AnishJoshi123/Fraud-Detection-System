@@ -1,2 +1,11 @@
 # Fraud-Detection-System
 The design, development, and comparison of fraud detection systems implemented using both relational (Oracle) and NoSQL (Studi 3T) databases.
+![image](https://github.com/user-attachments/assets/c2642cab-5f0a-4184-8ecc-fd8a0f238178)
+
+Fraud detection is a critical challenge for e-commerce platforms, as fraudulent activities can result in significant financial losses and reputational damage. The increasing complexity of fraud techniques necessitates the development of robust, scalable systems capable of detecting anomalies and mitigating risks. This report examines the design, implementation, and query techniques of fraud detection systems leveraging SQL databases, such as Oracle, and NoSQL solutions, such as MongoDB accessed through Studio 3T.
+
+SQL-based systems utilize structured queries to perform complex transactions and relationships among relational tables. Techniques such as JOINs, aggregations, and subqueries are employed to identify fraudulent patterns, like mismatched transaction amounts or unusual login activity across regions. These queries ensure data consistency and reliability, critical for detecting anomalies in structured datasets.
+
+NoSQL databases, accessed through tools like Studio 3T, adopt a flexible schema-less structure to manage large volumes of unstructured or semi-structured data. Query techniques in MongoDB include aggregation pipelines, map-reduce operations, and filtering with dynamic queries to analyze real-time behavioral data, such as transaction logs, user sessions, and device fingerprints. The use of Studio 3T enhances these operations with a user-friendly interface for query building, visualization, and performance optimization, enabling quicker insights and iterative fraud detection workflows.
+
+In conclusion, MongoDB and Oracle SQL Developer each have unique strengths tailored to  different types of data and use cases. MongoDB offers flexibility and scalability for applications handling unstructured data, while Oracle SQL Developer provides a powerful environment for managing structured, relational data with precision. Selecting the appropriate database system depends on the project’s data complexity, consistency needs, and scalability requirements. 
